@@ -1,0 +1,38 @@
+body {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Nunito", sans-serif;
+}
+.primary-color {
+  color: aqua;
+}
+.hero-section {
+  background-color: rgb(238, 236, 236);
+}
+.hero-img {
+  width: 600px;
+}
+.hero-tagline {
+  font-weight: 800;
+  font-size: 55px;
+}
+.hero-description {
+  font-size: large;
+}
+.category-icon {
+  width: 60px;
+}
+.product-card {
+  background-color: rgb(248, 244, 244);
+  border-radius: 10px;
+}
+.product-img {
+  max-width: 200px;
+  border: none;
+}
+.price {
+  color: rgb(24, 163, 24);
+  font-size: 20px;
+}
+.star {
+  color: rgb(255, 210, 48);
+}
