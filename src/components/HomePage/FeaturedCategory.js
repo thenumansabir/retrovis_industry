@@ -8,55 +8,95 @@ class FeaturedCategory extends Component {
     return (
       <div>
         <div className="container">
-          <div className="row my-5 py-5">
+          <div className="row my-lg-5 my-md-2 py-lg-3 py-md-2">
             <h2 className="mb-3 fw-bold">Featured Category</h2>
-            <div className="col-12 d-flex justify-content-around">
-              <div className="col-1 card">
+            <div className="col-12 d-flex justify-content-around featured-category">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Hoodie} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Hoodie</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Hoodie
+                  </h5>
                 </div>
               </div>
-              <div className="col-1 card">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Trouser} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Trouser</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Trouser
+                  </h5>
                 </div>
               </div>
-              <div className="col-1 card">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Short} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Short</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Short
+                  </h5>
                 </div>
               </div>
-              <div className="col-1 card">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Beanie} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Beanie</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Beanie
+                  </h5>
                 </div>
               </div>
-              <div className="col-1 card">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Hoodie} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Hoodie</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Hoodie
+                  </h5>
                 </div>
               </div>
-              <div className="col-1 card">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Trouser} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Trouser</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Trouser
+                  </h5>
                 </div>
               </div>
-              <div className="col-1 card">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Short} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Short</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Short
+                  </h5>
                 </div>
               </div>
-              <div className="col-1 card">
+              <div
+                className="col-1 card category-card"
+                style={{ transition: "transform 0.3s" }}
+              >
                 <div className="card-body text-center">
                   <img src={Beanie} className="category-icon" alt="" />
-                  <h5 className="card-title fw-bold mt-2">Beanie</h5>
+                  <h5 className="card-title fw-bold mt-2 category-title">
+                    Beanie
+                  </h5>
                 </div>
               </div>
             </div>

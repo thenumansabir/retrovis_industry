@@ -8,7 +8,7 @@ class Testimonial extends Component {
       <div>
         <div className="container">
           <div className="row  mb-5 pb-5">
-            <h2 className="mb-5 text-center fw-bold">Testimonials</h2>
+            <h2 className="mb-2 mb-md-5 my-md-5 text-center fw-bold">Testimonials</h2>
             <div className="col-12 mt-5">
               <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
@@ -22,8 +22,10 @@ class Testimonial extends Component {
                     </div>
                     <div className="card-body">
                       <div className="text-center">
-                        <h5 className="card-title fw-bold">Numan Sabir</h5>
-                        <div>
+                        <h5 className="card-title fw-bold testimonial-name">
+                          Numan Sabir
+                        </h5>
+                        <div className="testimonial-content">
                           I absolutely love shopping at Retrovis! The quality of
                           their products is unmatched, and their customer
                           service is top-notch. I recently purchased a hoodie
@@ -35,7 +37,7 @@ class Testimonial extends Component {
                   </div>
                 </div>
                 <div className="col">
-                  <div className="card p-2 testimonial-card border-0">
+                  <div className="card p-2 my-5 my-sm-5 my-md-0 testimonial-card border-0">
                     <div className="position-relative py-3">
                       <img
                         src={Numan2}
@@ -45,8 +47,10 @@ class Testimonial extends Component {
                     </div>
                     <div className="card-body">
                       <div className="text-center">
-                        <h5 className="card-title fw-bold">Numan Sabir</h5>
-                        <div>
+                        <h5 className="card-title fw-bold testimonial-name">
+                          Numan Sabir
+                        </h5>
+                        <div className="testimonial-content">
                           Retrovis has become my go-to store for trendy fashion!
                           Their collection is always up-to-date with the latest
                           styles, and the prices are incredibly affordable. I've
@@ -68,8 +72,10 @@ class Testimonial extends Component {
                     </div>
                     <div className="card-body">
                       <div className="text-center">
-                        <h5 className="card-title fw-bold">Numan Sabir</h5>
-                        <div>
+                        <h5 className="card-title fw-bold testimonial-name">
+                          Numan Sabir
+                        </h5>
+                        <div className="testimonial-content">
                           I'm a big fan of Retrovis' commitment to
                           sustainability. Their eco-friendly products are not
                           only good for the environment but also stylish and
