@@ -190,10 +190,10 @@ body {
   .product-name {
     font-size: 18px;
   }
-  .price { 
+  .price {
     font-size: 18px;
   }
-  .testimonial-img{
+  .testimonial-img {
     max-width: 75px;
   }
   .testimonial-name {
@@ -202,13 +202,13 @@ body {
   .testimonial-content {
     font-size: 14px;
   }
-  .testimonial-card .card-body{
+  .testimonial-card .card-body {
     padding: 0px;
   }
-  .footer-row{
+  .footer-row {
     padding-left: 50px;
   }
-  .footer-row .col-md-2{
+  .footer-row .col-md-2 {
     margin-bottom: 20px;
   }
 }
@@ -245,5 +245,51 @@ body {
   .product-card .card-body {
     padding-top: 6px;
     padding-bottom: 2px;
+  }
+}
+
+@media (max-width: 424px) {
+  h2 {
+    font-size: 18px;
+  }
+  .hs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tagline-section {
+    order: 2;
+    text-align: start;
+  }
+  .hero-img {
+    width: 250px;
+  }
+  .category-icon {
+    width: 35px;
+  }
+  .category-title {
+    font-size: small;
+    margin-bottom: 1px;
+  }
+  .product-img {
+    max-width: 75px;
+  }
+  .product-name {
+    font-size: 10px;
+  }
+  .price {
+    font-size: 10px;
+  }
+  .review-div {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+  .product-card .card-body {
+    padding-top: 3px;
+    padding-bottom: 1px;
+  }
+  .testimonial-content {
+    font-size: 12px;
   }
 }

@@ -7,8 +7,8 @@ class HeroSection extends Component {
       <div>
         <div className="container-fluid">
           <div className="row mb-5 hero-section">
-            <div className="col-md-12 d-flex justify-content-center py-lg-5 py-md-2 shadow">
-              <div className="col-5 d-flex align-items-center tagline-section">
+            <div className="col-md-12 d-flex justify-content-center py-lg-5 py-md-2 shadow hs">
+              <div className="col-5 col-xs-12 d-flex align-items-center tagline-section">
                 <div>
                   <h1 className="hero-tagline mb-4">
                     Upgrade Your Wordrobe <br />
@@ -22,10 +22,12 @@ class HeroSection extends Component {
                     something for everyone. Shop now to find the perfect
                     additions to your wardrobe and show off your unique style!
                   </p>
-                  <button className="btn btn-success btn-lg btn-md-sm">Buy Now</button>
+                  <button className="btn btn-success btn-lg btn-md-sm">
+                    Buy Now
+                  </button>
                 </div>
               </div>
-              <div className="col-5 d-flex justify-content-center">
+              <div className="col-5 col-xs-12 d-flex justify-content-center">
                 <img src={HeroImage} className="hero-img" alt="" />
               </div>
             </div>

@@ -16,7 +16,7 @@ class Products extends Component {
                     <div className="card product-card border-0">
                       <div className="card-body">
                         <div className="text-end">
-                          <span class="material-symbols-outlined">
+                          <span class="material-symbols-outlined icon">
                             favorite
                           </span>
                         </div>
@@ -39,7 +39,7 @@ class Products extends Component {
                         </div>
                         <div className="d-flex align-items-center review-div">
                           <div>
-                            <span class="material-symbols-outlined star">
+                            <span class="material-symbols-outlined star icon">
                               star
                             </span>
                           </div>
