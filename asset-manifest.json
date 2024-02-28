@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/retrovis_industry/static/css/main.db1db652.css",
-    "main.js": "/retrovis_industry/static/js/main.43c671ec.js",
+    "main.css": "/retrovis_industry/static/css/main.ca14a80c.css",
+    "main.js": "/retrovis_industry/static/js/main.35df3cf2.js",
     "static/js/453.64a032f5.chunk.js": "/retrovis_industry/static/js/453.64a032f5.chunk.js",
     "static/media/numan1.png": "/retrovis_industry/static/media/numan1.bf1ed6a2b4931d6ced0d.png",
     "static/media/numan2.png": "/retrovis_industry/static/media/numan2.d852207aa12899c1996d.png",
@@ -21,12 +21,12 @@
     "static/media/short.png": "/retrovis_industry/static/media/short.2ef4c35eec33e4a3f7ae.png",
     "static/media/trouser.png": "/retrovis_industry/static/media/trouser.51ecbc33b8b48ea1c52c.png",
     "index.html": "/retrovis_industry/index.html",
-    "main.db1db652.css.map": "/retrovis_industry/static/css/main.db1db652.css.map",
-    "main.43c671ec.js.map": "/retrovis_industry/static/js/main.43c671ec.js.map",
+    "main.ca14a80c.css.map": "/retrovis_industry/static/css/main.ca14a80c.css.map",
+    "main.35df3cf2.js.map": "/retrovis_industry/static/js/main.35df3cf2.js.map",
     "453.64a032f5.chunk.js.map": "/retrovis_industry/static/js/453.64a032f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db1db652.css",
-    "static/js/main.43c671ec.js"
+    "static/css/main.ca14a80c.css",
+    "static/js/main.35df3cf2.js"
   ]
 }
