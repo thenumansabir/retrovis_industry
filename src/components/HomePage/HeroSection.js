@@ -23,7 +23,7 @@ class HeroSection extends Component {
                     additions to your wardrobe and show off your unique style!
                   </p>
                   <button className="btn btn-success btn-lg btn-md-sm">
-                    Buy Now
+                    Explore Now
                   </button>
                 </div>
               </div>
